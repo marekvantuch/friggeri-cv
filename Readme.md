@@ -3,6 +3,8 @@ Latest version of my CV, typesetted in Helvetica and using colors inspired by Mo
 
 Uses TikZ for the header, XeTeX and fontspec to use Helvetica Neue, biblatex to print my publications and textpos for the aside.
 
+# By Marek
+Several changes were done to the template. Bibtex was mostly removed and new macros were introduced to reflect requirements to capture work positions and date scales in the document.
 
 # License
 

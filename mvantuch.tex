@@ -14,15 +14,15 @@
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %
 % Important notes:
-% This template needs to be compiled with XeLaTeX and the bibliography, if used,
-% needs to be compiled with biber rather than bibtex.
+% This template needs to be compiled with XeLaTeX.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 
 \begin{document}
 
-\header{marek}{vantuch}{freelance software engineer} % Your name and current job title/field
+\header{marek}{vantuch}{freelance software engineer}
 
 %----------------------------------------------------------------------------------------
 %	SIDEBAR SECTION
@@ -30,133 +30,195 @@
 
 \begin{aside} % In the aside, each new line forces a line break
 \section{contact}
-Františkánská 428/1
-602 00 Brno
-Czech Republic
+41 Mitchell street
+Brooklyn
+6021 Wellington
 ~
-(+420) 774 614 714
+(+64) 224 750 571
 ~
 marek@vantuch.com
 \section{languages}
-czech | mother tongue
-english | fluent
+Czech | mother tongue
+English | fluent
 (IELTS Band 8)
 \section{programming}
 {\color{red} $\varheartsuit$} C\#, JavaScript
 PHP, JAVA
 CSS, HTML
+SQL
 \section{technologies}
-ASP.NET, MVC.NET
-T-SQL, MySQL 
-REST, SOA
-Git, Accurev, TeamCity
-CasperJS, XUnit
-Drupal
-\section{IDEs}
-Visual Studio
-Android Studio
-PHPStorm
-\section{Graphics}
-Adobe Photoshop
-Adobe Ligtroom
+{\color{red} $\varheartsuit$} MVC.NET {\color{red} $\varheartsuit$} Drupal
+Web API, IoC
+XUnit, PHPUnit
+Git
 \section{metodologies}
 SCRUM, TDD
+SOA
+\section{IDEs}
+Visual Studio + ReSharper
+PHPStorm
 \end{aside}
 
+%----------------------------------------------------------------------------------------
+%	PROFILE SECTION
+%----------------------------------------------------------------------------------------
+\section{profile}
+I am a Full-Stack developer with mostly web related experience.
+Over the last couple of years I have used wide range of languages and technologies including short time of JAVA Android development.
+I mostly work with MVC and try to use the best features of each of the languages and technologies I've learned in projects I work on.
+I enjoy challenges, learning new technologies and interesting ways of solving issues.
 
+I don't mind doing a bit of management and I enjoyed my role as a development lead.
+After leading a team for a while, I try to provide exact estimates and then do it ideally sooner.
+\bigskip
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \section{experience}
-
 \begin{entrylist}
-%------------------------------------------------
-\entry
-{2014--2016}
-{Proof \& Reason s.r.o.}
-{Brno, Czech Republic}
-{\emph{Freelance software engineer} (Drupal) \\
-Cooperation on various small or big projects -- analysis, architecture and development. \medskip
-}
-%------------------------------------------------
-\entry
-{2014--2015}
-{Oriflame Software s.r.o.}
-{Olomouc, Czech Republic}
-{\emph{Software engineer} (ASP.NET Web API) \\ 
-Analysis, design and implementation of a REST API backend for an Android application. \smallskip\\
-\emph{Software engineer} (Android) \\ 
-Android application development and maintanance. \smallskip\\
-\emph{Software engineer} (MVC.NET) \\
-Backend for a custom built e-commerce solution. \medskip
-}
-%------------------------------------------------
-\entry
-{2014}
-{NetSuite Czech Republic s.r.o.}
-{Brno, Czech Republic}
-{\emph{Software engineer} (JAVA)\\
-Working in the team focused on deploying an online project management tool as part of the NetSuite product. \medskip
-}
-%------------------------------------------------
-\entry
-{2012}
-{Spark (Vietnam)}
-{Ha Noi, Viet Nam}
-{\emph{Software engineer \& analyst} (Drupal) \\
-During an internship, I have designed and implemented a web portal for Spark Social Entrepreneurship Development organization. \medskip
-}
-%------------------------------------------------
-\entry
-{2010--2013}
-{FNZ Czechia}
-{Brno, Czech Republic}
-{\emph{Project Development Lead} (MVC.NET, REST API) \\
-Finished development of an online investment platform and managed it's support during first months after it's release to market. Besides managing development team, I had to provide estimates and contribute to project planning while communicating to client side employees in order to manage deployments. \smallskip\\
-\emph{Team Lead} (ASP.NET) \\
-Being assigned one of smaller projects, I had lead a team of several developers to deliver updates to an already functional platform. \smallskip\\
-\emph{.NET Developer} (ASP.NET) \\
-Cooperated in development of multiple online investment platforms using various .NET technologies. I had been sent to New Zealand for skill transfer. \medskip
-}
-%------------------------------------------------
-\entry
-{2010}
-{CZ.NIC}
-{Prague, Czech Republic}
-{\emph{Software Engineer} (JavaScript) \\
-Cooperated on development of network analysis browser extension.}
-%------------------------------------------------
+  \job
+  {08 / 2014 \\ --- \\ 03 / 2017}
+  {Proof \& Reason s.r.o.}
+  {Brno, Czech Republic}
+  {UX focused digital agency}
+  {
+    \position
+    {Drupal Architect \& Developer}
+    {Drupal, Symfony, PHP, JavaScript, AJAX, Grunt, TWIG, HTML, SASS}
+    {
+      Cooperated as a freelancer on various projects. Most of those I was the sole developer and architect.
+      Projects were ranging from one site e-commerce solutions to sizeable platforms.
+      Largest project was a custom administration for German newspaper house which is still being developed today and will
+      be eventually re-sold as a product.
+      I was mostly responsible for custom implementations and alterations to core Drupal behaviour along with advanced JavaScript and AJAX implementations.
+    }\\
+    \emph{Key Successes:}
+    \begin{itemize}
+      \item Three projects I had been responsible for were deployed on time and in accordance with the client's requirements.
+      \item Culsulting on other projects in regard of proper and clean 'Drupal' ways of implementation and architecture.
+      \item Freelance cooperation on a news page for Czech Radio.
+    \end{itemize}
+  }
 \end{entrylist}
 
+\begin{entrylist}
+  \job
+  {06 / 2014 \\ --- \\ 06 / 2015}
+  {Oriflame Software s.r.o.}
+  {Olomouc, Czech Republic}
+  {Software department of a major cosmetics company \emph{Oriflame Sweden}}
+  {
+    \position
+    {Back-End Developer}
+    {MVC.NET, C\#, JavaScript, AJAX, NHibernate, IoC, TFS}
+    {Back-end development for a custom built e-commerce solution.
+    I was part of a team which was implementing a redesigned version of an existing online shop.
+    Target was to operate in more than fifty countries on Azure backend with in-memory queries and additional high-performance features.
+    Whole solution was built from scratch and I was responsible for designing several of it's parts and implementation of others.}\\
+    \position
+    {Android Developer}
+    {Android, JAVA, GIT}
+    {Android part of our project was running behind.
+    I was offered to start working on Android app and cooperate on it's development, taking over some parts of the application.}\\
+    \position
+    {REST Architect \& Developer}
+    {ASP.NET Web API, C\#, NHibernate, IOC, GIT}
+    {Analysis, design and implementation of a REST API backend for an Android application.
+    With another colleague we were responsible for the back-end part of the application and implemented a Web API solution to provide
+    accounts and storage for the Android front-end.}\\
+    \emph{Key Successes:}
+    \begin{itemize}
+      \item Managed to fluently jump into a running Android project with no previous knowledge of the technology.
+      \item Implemented several new design features into the MVC application, expanding it to MVVP pattern and therefore
+      allowed for it to be a bit clearer and simpler.
+    \end{itemize}\medskip
+  }
+  \job
+  {02 / 2014 \\ --- \\ 05 / 2014}
+  {NetSuite Czech Republic s.r.o.}
+  {Brno, Czech Republic}
+  {American company offering cloud based services for managing large businesses}
+  {
+    \position
+    {Software Engineer}
+    {JAVA, JavaScript, Oracle SQL, GIT}
+    {Working in the team focused on deploying an online project management tool as part of the NetSuite product.
+    I had quit after three months for the lack of challenges.}
+  }
+  \job
+  {02 / 2012 \\ --- \\ 04 / 2012}
+  {Spark (Vietnam)}
+  {Ha Noi, Viet Nam}
+  {Social Entrepreneurship Development NGO}
+  {
+    \position
+    {Drupal architect \& developer}
+    {Drupal, PHP, JavaScript, HTML, CSS}
+    {During an internship, I had designed and implemented a web portal for Spark Social Entrepreneurship Development organization.}
+  }
+\end{entrylist}
+
+\begin{entrylist}
+  \job
+  {09 / 2010 \\ --- \\ 05 / 2013}
+  {FNZ Czechia}
+  {Brno, Czech Republic}
+  {Provides financial investment platforms to financial institutions}
+  {
+    \position
+    {Project Development Lead}
+    {MVC.NET, REST API, C\#, JavaScript, JIRA, SCRUM, Accurev, Project Management}
+    {Finished last development stage of an online investment platform and managed it's support during first months after it's
+    release to market. Besides managing development team, I provided estimates and contributed to project planning
+    while communicating to client side employees.}\\
+    \position
+    {Team Lead}
+    {ASP.NET, C\#, VB.NET, JavaScript, JIRA, Accurev}
+    {I was assigned to of smaller projects and lead it's development duriring support phase. I implemented new changes
+    into it's codebase along with several improvements to technologies and architecture.}\\
+    \position
+    {.NET Developer}
+    {ASP.NET, MVC.NET, C\#, JavaScript, REST API, Accurev}
+    {Worked on many separate projects in multiple technologies in both C\# and VB.NET. I was sent to New Zealand for
+    several months long business trip to help local development and transfer some of their skills back to our office.}\\
+    \emph{Key Successes:}
+    \begin{itemize}
+      \item Stabilized a previously infamous project and started delivering expected work with team of roughly seven developers.
+      \item Improved processes and deployements to streamline the development and reduce overhead.
+    \end{itemize}\medskip
+  }
+\end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-
-\newpage
 \section{education}
 
 \begin{entrylist}
-%------------------------------------------------
-\entry
-{2011--2014}
-{Master {\normalfont Service Science, Management and Engineering}}
-{Masaryk University, Brno}
-{\emph{Specialization in project management and SOA.} \\ Thesis in implementation of remote machine connection from HTML5 compatible browser.}
-%------------------------------------------------
-\entry
-{2010}
-{Erasmus {\normalfont Information Technology}}
-{Yildiz Technical University, Istanbul}
-{}
-%------------------------------------------------
-\entry
-{2007--2011}
-{Bachelor {\normalfont Information Technology}}
-{Brno university of technology, Brno}
-{\emph{General information technology programme.} \\ Thesis in natural language morphological tagging.}
-%------------------------------------------------
+  \entry
+  {\parbox[t]{2cm}{\centering 2011 \\ --- \\ 2014}}
+  {Master {\normalfont Service Science, Management and Engineering}}
+  {Masaryk University, Brno}
+  {
+    \thesis
+    {Specialization in project management and SOA.}
+    {Thesis in implementation of remote machine connection from HTML5 compatible browser.}
+  }
+  \entry
+  {\parbox[t]{2cm}{\centering 2010}}
+  {Erasmus Programme {\normalfont Information Technology}}
+  {Yildiz Technical University, Istanbul}
+  {Exchange student during a single term.\medskip}
+  \entry
+  {\parbox[t]{2cm}{\centering 2007 \\ --- \\ 2011}}
+  {Bachelor {\normalfont Information Technology}}
+  {Brno university of technology, Brno}
+  {
+    \thesis
+    {General information technology programme.}
+    {Thesis in natural language morphological tagging.}
+  }
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
@@ -168,34 +230,12 @@ Cooperated on development of network analysis browser extension.}
 \begin{entrylist}
 %------------------------------------------------
 \entry
-{2010}
+{\parbox[t]{2cm}{\centering 2010}}
 {VIP2 Contest Winner}
 {CZ.NIC, Prague, Czech Republic}
 {Won the price for finishing one of suggested projects.}
 %------------------------------------------------
 \end{entrylist}
-
-%----------------------------------------------------------------------------------------
-%	COMMUNICATION SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-%\section{communication skills}
-
-%\begin{entrylist}
-%------------------------------------------------
-%\entry
-%{2011}
-%{Oral Presentation}
-%{California Business Conference}
-%{Presented the research I conducted for my Masters of Commerce degree.}
-%------------------------------------------------
-%\entry
-%{2010}
-%{Poster}
-%{Annual Business Conference, Oregon}
-%{As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
-%------------------------------------------------
-%\end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
@@ -205,29 +245,5 @@ Cooperated on development of network analysis browser extension.}
 
 \textbf{professional:} Linux, Drupal, SCRUM, time management, web technologies \\
 \textbf{personal:} travelling, sports, photography, reading, cycling, motorcycling
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS SECTION
-%----------------------------------------------------------------------------------------
 
-%\section{publications}
-
-%\printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
-
-%\printbibsection{book}{books} % Print all books from the bibliography
-
-%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
-%\nocite{*}
-%\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, %heading=subbibliography]
-%\end{refsection}
-
-%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
-%\nocite{*}
-%\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
-%\end{refsection}
-
-%\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
-
-%\printbibsection{report}{research reports} % Print all research reports from the bibliography
-
-%----------------------------------------------------------------------------------------
 \end{document}
