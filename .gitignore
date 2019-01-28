@@ -9,5 +9,8 @@
 *.fdb_latexmk
 *.xdv
 *.bbl
+*.pdf
 
 tmp
+
+.idea
