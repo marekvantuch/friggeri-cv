@@ -2,7 +2,7 @@
 
 FILE="mvantuch.tex"
 FILE="mvantuch-cz.tex"
-FILE="ivantuchova-cz.tex"
+FILE="ivantuchova-sk.tex"
 #FILE="friggeri-cv-default.tex"
 
 ./xelatex.sh ${FILE}
