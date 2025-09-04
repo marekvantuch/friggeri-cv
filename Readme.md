@@ -6,6 +6,10 @@ Uses TikZ for the header, XeTeX and fontspec to use Helvetica Neue, biblatex to 
 # By Marek
 Several changes were done to the template. Bibtex was mostly removed and new macros were introduced to reflect requirements to capture work positions and date scales in the document.
 
+```bash
+$ dnf install texlive-unicode-math texlive-parskip texlive-textpos 
+```
+
 # License
 
 Copyright (C) 2012, Adrien Friggeri
